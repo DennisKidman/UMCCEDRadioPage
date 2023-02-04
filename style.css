@@ -694,7 +694,7 @@ TABLE OF CONTENT
 
   /* GAP */
   
-  --ui-gap-cta : .75rem;
+  --ui-gap-cta : .5rem;
   --ui-gap-hero: 2rem;
 
   /* BORDER RADIUS */
@@ -897,7 +897,7 @@ button {
   padding-top: 1.25rem;
 }
 
-.ui-section-header__layout { justify-content: space-between; }
+.ui-section-header__layout { justify-content: space-evenly; }
 
 /*--------------------------------------------------------------
 |
