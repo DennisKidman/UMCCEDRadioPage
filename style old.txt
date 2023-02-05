@@ -69,7 +69,7 @@ TABLE OF CONTENT
   |
   ------------------------------------------------------------*/
 
-  --ui-typography-typeface: "Inter", sans-serif;
+  --ui-typography-typeface: "Varela Round", sans-serif;
 
   /* FONT SIZE */
 
@@ -607,7 +607,7 @@ button {
     /* FONT SIZE */
 
     --ui-typography-h1: 2.75rem;
-    --ui-typography-h4: .5rem;
+    --ui-typography-h4: 20px;
 
     /* MARGIN */
 
@@ -634,9 +634,23 @@ button {
   ------------------------------------------------------------*/
 
   .ui-text-intro {
+    font-family: 'Varela Round', sans-serif;
     font-size: var(--ui-typography-h4);
-  }
-
+  }  
+  
+  @media only screen and (max-width: 767px) {
+    .ui-text-intro {
+      font-family: 'Varela Round', sans-serif;
+      font-size: 16px;
+    }
+  }  
+  
+  @media all and (max-width: 991px), (max-width: 768px), (max-width: 480px) {
+    .ui-text-intro {
+      font-family: 'Varela Round', sans-serif;
+    }
+  }  
+  
   /*------------------------------------------------------------
   LAYOUT
   ------------------------------------------------------------*/
@@ -752,7 +766,7 @@ TABLE OF CONTENT
   |
   ------------------------------------------------------------*/
 
-    --ui-typography-typeface: "Inter", sans-serif;
+    --ui-typography-typeface: "Varela Round", sans-serif;
 
     /* FONT SIZE */
 
@@ -1236,7 +1250,7 @@ TABLE OF CONTENT
       /* FONT SIZE */
 
       --ui-typography-h1: 2.75rem;
-      --ui-typography-h4: .5rem;
+      --ui-typography-h4: 20px;
 
       /* MARGIN */
 
@@ -1262,9 +1276,23 @@ TABLE OF CONTENT
   TYPOGRAPHY
   ------------------------------------------------------------*/
 
+  .ui-text-intro {
+    font-family: 'Varela Round', sans-serif;
+    font-size: var(--ui-typography-h4);
+  }  
+  
+  @media only screen and (max-width: 767px) {
     .ui-text-intro {
-      font-size: var(--ui-typography-h4);
+      font-family: 'Varela Round', sans-serif;
+      font-size: 16px;
     }
+  }  
+  
+  @media all and (max-width: 991px), (max-width: 768px), (max-width: 480px) {
+    .ui-text-intro {
+      font-family: 'Varela Round', sans-serif;
+    }
+  }  
 
     /*------------------------------------------------------------
   LAYOUT

@@ -64,7 +64,8 @@
             <!-- COPYWRITING -->
             <div class="ui-section-hero--content">
               <h1>UMCCED Student Radio</h1>
-              <p class="ui-text-intro">Real</p>
+              <style> @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap'); </style>
+              <p class="ui-text-intro">Welcome to UMCCED Student Radio! a 100% student run project. Click the button below to tunein. Please wait around 5-20seconds for the audio to load.</p>
               <!-- RADIO -->
               <iframe src="https://cleo.shoutca.st/public/umccedstudentradio/embed?theme=light" 
               frameborder="0" 
