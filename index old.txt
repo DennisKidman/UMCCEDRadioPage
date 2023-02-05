@@ -24,13 +24,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
     <link rel="preload" as="style" href="style.css">
     <link rel="stylesheet" href="style.css">
-    <!-- SCRIPT COMPRESS -->
-    <html>
-    <head>
-    <script src="https://cdn.jsdelivr.net/npm/lz-string@1.4.4/libs/lz-string.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
     <!-- TITLE -->
     <head>
       <style>
@@ -98,22 +91,5 @@
         </div>
       </div>
     </footer>
-  </body>
-</html>
-    <script>
-      // Read the contents of the HTML file
-      var xhr = new XMLHttpRequest();
-      xhr.open('GET', 'index.html', false);
-      xhr.send();
-      var input = xhr.responseText;
-
-      // Compress the HTML content
-      var compressed = LZString.compressToBase64(input);
-      console.log("Compressed data: ", compressed);
-
-      // Decompress the compressed content
-      var decompressed = LZString.decompressFromBase64(compressed);
-      console.log("Decompressed data: ", decompressed);
-    </script>
   </body>
 </html>
