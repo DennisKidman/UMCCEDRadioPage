@@ -72,6 +72,15 @@
               style="width: 70%; height: 25%; min-height: 50px; border: 0; background-color: #317af5; border-radius: 15px;"
               title="UMCCed Student Radio">
             </iframe>
+            <!-- TELEGRAM -->
+            <div class="telegram-widget">
+            <html>
+             <head>
+                <div style="background-color: #343638;">
+                <script async src="https://telegram.org/js/telegram-widget.js?21" data-telegram-discussion="guap1230/3" data-comments-limit="7" data-colorful="1" data-color="#638AFD" data-dark="1" data-dark-color="#638AFD"></script>
+                </div>
+             </head>
+             <body>
                     <!-- IMAGE -->
               <div class="image-wallpaper">
             <img src="https://i.imgur.com/DvzWtUG.jpg" alt="Anime Image">

@@ -607,7 +607,7 @@ button {
     /* FONT SIZE */
 
     --ui-typography-h1: 2.75rem;
-    --ui-typography-h4: 1.4375rem;
+    --ui-typography-h4: .5rem;
 
     /* MARGIN */
 
@@ -1236,7 +1236,7 @@ TABLE OF CONTENT
       /* FONT SIZE */
 
       --ui-typography-h1: 2.75rem;
-      --ui-typography-h4: 1.4375rem;
+      --ui-typography-h4: .5rem;
 
       /* MARGIN */
 
