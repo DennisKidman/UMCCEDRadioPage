@@ -18,6 +18,7 @@ TABLE OF CONTENT
 |  7.1 HEADER
 |  7.2 HERO
 |  7.3 FOOTER
+|  7.4 TELEGRAM
 8.0 MEDIA
 |  8.1 768PX
 |  8.2 1024PX
@@ -410,6 +411,24 @@ button {
 .ui-section-footer--copyright {
   margin-bottom: 0;
   margin-right: auto;
+}
+
+/*--------------------------------------------------------------
+|
+| 7.4 TELEGRAM-WIDGET
+|
+--------------------------------------------------------------*/
+
+.telegram-widget
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .telegram-widget {
+    width: 80%;
+  }
 }
 
 /*--------------------------------------------------------------
